@@ -1,0 +1,115 @@
+html{
+    margin: 10px;;
+    padding:0;
+}
+body{
+    background-color:#fff5ee;
+}
+#section-mainmenu{
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    background-color: rgba(139, 69, 19, 0.53);
+}
+#stories-headerimage{
+    display: block;
+    background-color: #9bb4b4ed;
+    width: 1220px;
+    margin-left: 10px;
+    margin-top: 100px;
+    height: 280px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.text-mainmenu{
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+#div2{
+    background-color: #fa8072; 
+    width: 1200px; 
+    height:400px;
+}
+#div3,#div4{
+    background-color:#008080; 
+    width: 1200px; 
+    height:400px;
+}
+#div2, #div3, #div4{
+    position:static;
+}
+#maintext{
+    color: #000; 
+    font-size: 28px; 
+    text-align:left;
+}
+#text2{
+    color: #000; 
+    font-size: 24px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#table-name{
+    color:#000000; 
+    font-size: 25px; 
+    font-weight:500; 
+}
+#sashapic {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+#sightslist{
+    color:#008080;
+    font-weight: 500;
+    font-size: 25px;
+}
+h1{
+    color:#8b4513; 
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 35px;
+    text-decoration:underline;
+}
+h3{
+    font-size: 30px;
+    font-style: italic;
+}
+#letter-1{
+    color: #6a5acd;
+}
+#letter-2{
+    color: #ffff00;
+}
+#letter-3{
+    color: #da70d6;
+}
+.tableh1{
+    color:#ffffff; 
+    font-size:35px; 
+}
+.nyctable {
+  background-color: #d2b48c;
+  text-align: center;
+  color:#000;
+  font-size: 25px;
+  border-radius: 6px;
+}
+form{
+    padding:10px;
+    background-color: #9bb4b4ed;
+    font-style: italic;
+    border-style: dotted;
+    border-color: #000000;
+    font-size: 20px;
+}
+input[type=button]{
+color:#000000;
+font-variant:small-caps;
+background-color:#d2b48c;
+padding:10px;
+}
