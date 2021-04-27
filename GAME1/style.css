@@ -1,0 +1,28 @@
+.grid {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+h2, h3{
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.players{
+    display:flex; 
+    align-items: center; 
+    justify-content:space-around;
+
+}
+    
+#btnStart {
+    margin-left: 40px;
+    position: absolute;
+    top: 7%;
+
+}
