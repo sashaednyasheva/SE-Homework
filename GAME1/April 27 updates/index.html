@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concentration Game</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="game.js"></script>
+
+</head>
+<body>
+    
+    <h2>CONCENTRATION GAME</h2>
+
+   
+    <h3>Current Player: <span id="currentPlayer">1</span></h3>
+
+    <div class= "players">
+        <h3>Score Player 1: <span id="result1"></span></h3>
+        <h3>Score Player 2: <span id="result2"></span></h3>
+    </div>
+
+    <div class="grid"> 
+    </div>    
+
+    <div id="reset">
+        <button id="btnStart">PLAY AGAIN!</button>
+    </div>
+
+   <script> 
+
+       document.getElementById("btnStart").addEventListener("click", function(){
+       location.reload();
+        return false;
+    });
+
+   </script>   
+
+</body>
+</html>
