@@ -16,7 +16,7 @@ class PurchasedList extends React.Component{
         return (
         <div className="updatedCart">
         <h3><img src={PurchaseImage} alt="shopping cart" width="50px" height="50px"/>Update Cart:</h3> 
-        <button className="updateButton" onClick = {this.handleUpdate}>UPDATE CART</button>
+        <button className="updateButton" onClick = {this.handleUpdate}>UPDATE MY CART</button>
         {this.state.list.map((grocery,index) => <li key={index}> Purchased Item: {grocery.item} , {grocery.quantity}, {grocery.units} </li>)}
         </div>
         )
