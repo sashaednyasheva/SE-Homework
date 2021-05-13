@@ -15,7 +15,7 @@ const groceries = [
         item: "Bananas",
         quantity: 2, 
         units: "lbs",
-        isPurchased: true
+        isPurchased: false
     }
     
 ]

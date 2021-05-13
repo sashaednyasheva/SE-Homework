@@ -31,13 +31,7 @@ class AddToList extends React.Component{
             </label> 
             <label>
             Units:
-            <select type="text" name="units" value={this.state.units} onChange={this.handleChange}>
-            <option value="lbs">lbs</option>
-            <option value="Litre">ml</option>
-            <option value="Packs">packs</option>
-            <option value="Dozen">dozens</option>
-            <option value="bottle">bottles</option>
-            </select>
+            <input type="text" name="units" value={this.state.units} onChange={this.handleChange}/>
             </label> 
             <label>    
             Purchase Item?
