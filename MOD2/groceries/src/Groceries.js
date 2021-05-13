@@ -49,8 +49,9 @@ class Groceries extends React.Component{
             <h3 className="title">SHOPPING LIST</h3>
             <div className="paragraph">
             <p>
-            Add items of choice to your Cart using the form below.   
-            You can change your Purchase selection clicking "Remove" button.
+            Add items of choice to Cart using the form below. Only "Purchased: True" items will be added to your list.    
+            You can change your Purchase selection clicking "Save For Later" button. 
+            <br></br>
             Click "Update List" to see the updated list of all Purchased Items ready for Checkout.
             </p> 
             </div>

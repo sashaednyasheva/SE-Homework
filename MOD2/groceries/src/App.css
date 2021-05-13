@@ -20,7 +20,7 @@ body {
     flex: 0 0 35vw;
   }
   .main > .updatedCart {
-    background: #D7E8D4;
+    background: #b5ceb1;
     order: 3;
   }
   .main > .addedList {
@@ -29,11 +29,11 @@ body {
   }
 
 header{
-    border: 5px solid #FFFF00;
+    border: 5px solid rgba(221, 240, 239, 0.815);
     padding: 20px 0;
     text-align: center;
-    background: yellowgreen;
-    height: 35vh;
+    background: rgb(133, 161, 204);
+    height: 37vh;
   }
 
 .title{
@@ -44,10 +44,17 @@ header{
     text-align: center; 
 }
 
+li{
+  margin: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+
 h3{
     text-align:center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 250;
+    font-weight: 350;
 }
 
 h4{
@@ -109,7 +116,7 @@ h4{
         background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
         background-color:#ffec64;
         border-radius:6px;
-        border:1px solid #ffaa22;
+        border:1px solid #c9c5bf;
         display:inline-block;
         cursor:pointer;
         color:#333333;
@@ -118,24 +125,24 @@ h4{
         font-weight:bold;
         padding:3px 20px;
         text-decoration:none;
-        text-shadow:0px 1px 0px #ffee66;
 }
-.removeButton:hover {
-        background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-        background-color:#ffab23;
-}
-.removeButton:active {
-        position:relative;
-        top:1px;
+.removeButton:active {     
+  background: rgb(216, 111, 111);
+  position:relative;
+  top:1px;   
 }
     
-    /* margin-left: 30px;
-    background-color:rgb(230, 148, 233);
-    color: rgb(2, 2, 2);
-    font-size: 12px;
-    text-align:center;
-    border-radius: 25px;
-    cursor: pointer; */
+.removeButton:focus {     
+  background: rgb(216, 111, 111); 
+  position:relative;
+  top:1px;   
+}
+
+.removeButton:visited {     
+  background: rgb(216, 111, 111); 
+  position:relative;
+  top:1px;   
+}
 
 input[type=text], select {
     width: 20vw;
@@ -149,17 +156,17 @@ input[type=text], select {
   
   input[type=submit] {
     width: 20vw;
-    background-color: #FFFF00;
+    background-color:#b5ceb1;
     color: rgb(2, 2, 2);
     padding: 14px 20px;
     margin: 8px 0;
-    border: 1px solid yellowgreen;
+    border: 1px solid rgba(221, 240, 239, 0.815);
     border-radius: 4px;
     cursor: pointer;
   }
   
   input[type=submit]:hover {
-    background-color:yellowgreen;
+    background:linear-gradient(to bottom, #ffab23cc 5%, #ffec64 100%)
   }
 
   .formDiv{
