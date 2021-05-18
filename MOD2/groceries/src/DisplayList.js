@@ -5,7 +5,7 @@ import cartImage from './2.png'
 class DisplayList extends React.Component{
 
     handleClick=(index, event)=> {
-        console.log(this.props.groceries[index].isPurchased = !this.props.groceries[index].isPurchased)
+        (this.props.groceries[index].isPurchased = !this.props.groceries[index].isPurchased)
 
     }
 
