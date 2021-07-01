@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 20px;
+  }
+
+
+.card {
+    width: 500px;
+    max-width: 100%;
+  }
